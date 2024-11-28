@@ -1,2 +1,1 @@
-# bootstrap_input_material
-inputs floating estilo material desing
+Plantilla Beer CSS Main colors
