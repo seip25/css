@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeerCss</title>
+    <meta name="color-scheme" content="light dark">
+
+    <link href="https://cdn.jsdelivr.net/npm/beercss@3.7.12/dist/cdn/beer.min.css" rel="stylesheet">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/beercss@3.7.12/dist/cdn/beer.min.js"></script>
+    <script type="module"
+        src="https://cdn.jsdelivr.net/npm/material-dynamic-colors@1.1.2/dist/cdn/material-dynamic-colors.min.js"></script>
+    <link rel="stylesheet" href="css/app.css" />
+    <script src="js/utils.js"></script>
+</head>
+
+<body>
+    <header class="primary">
+        <nav >
+
+            <h5 class="max left-align">Titulo</h5>
+            <button class="circle transparent" onclick="abrirModal({event:event,id:'menu_drawer',drawer:true})">
+                <i>menu</i>
+            </button>
+        </nav>
+    </header>
+
+    <nav class="bottom">
+        <a>
+            <i>home</i>
+            <div>Home</div>
+        </a>
+        <a>
+            <i>search</i>
+            <div>Search</div>
+        </a>
+        <a>
+            <i>share</i>
+            <div>Share</div>
+        </a>
+        <a>
+            <i>settings</i>
+            <div>Settings</div>
+        </a>
+
+    </nav>
+    <main class="responsive">
+        <p>Compact</p>
+        <div>
+            <button  class="error">Hola</button>
+        </div>
+
+    </main>
+
+    <dialog id="menu_drawer" class="left no-padding">
+        <nav class="drawer">
+            <header>
+                <nav>
+                     <h6 class="max ">Menu</h6>
+                    <button class="transparent circle large" onclick="cerrarModal({event:event,id:'menu_drawer'})">
+                        <i >close</i>
+                    </button>
+                </nav>
+            </header>
+            <a>
+                <i>inbox</i>
+                <span class="max">Inbox</span>
+                <b>24</b>
+            </a>
+            <a>
+                <i>send</i>
+                <span>Outbox</span>
+            </a>
+            <a>
+                <i>favorite</i>
+                <span>favorities</span>
+            </a>
+            <a>
+                <i>delete</i>
+                <span>Trash</span>
+            </a>
+            <hr>
+            <br />
+             <a >
+                <i>logout</i>
+                <span>Cerrar sesión</span>
+            </a>
+          
+        </nav>
+    </dialog>
+
+</body>
+</html>
