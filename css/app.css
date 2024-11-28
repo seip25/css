@@ -1,7 +1,7 @@
 :root,
 body.light {
   /* --primary: #10b981; */
-  --primary: #1b58d2;
+  --primary: #2864de;
   --on-primary: #ffffff;
   --primary-container: #74f8e5;
   --on-primary-container: #00201c;
@@ -83,8 +83,8 @@ body.dark h2,
 body.dark h3,
 body.dark h4,
 body.dark h5,
-body.dark h6 ,
-body.dark i{
+body.dark h6,
+body.dark i {
   color: white !important;
 }
 
@@ -106,9 +106,7 @@ body.dark i{
   background-color: #3b82f6;
   color: white;
 }
-a {
-  color: #3b82f6;
-}
+
 .bold {
   font-weight: bold;
 }
@@ -126,7 +124,6 @@ article header {
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
 }
- 
 
 .card-body {
   padding: 1rem;
@@ -165,9 +162,30 @@ article header {
 .between {
   justify-content: space-between;
 }
+.mb-1 {
+  margin-bottom: 0.5rem;
+}
 
+.mb-1 {
+  margin-bottom: 1rem;
+}
+.mb-4 {
+  margin-bottom: 2rem;
+}
+
+.mb-3 {
+  margin-bottom: 1.5rem;
+}
 .mt-1 {
   margin-top: 1rem;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.mt-3 {
+  margin-top: 3rem;
 }
 
 .mt-4 {
@@ -199,4 +217,3 @@ li {
 .container-sm {
   max-width: 550px;
 }
- 
