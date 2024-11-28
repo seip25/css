@@ -17,7 +17,7 @@
 
 <body>
     <header class="primary">
-        <nav >
+        <nav>
 
             <h5 class="max left-align">Titulo</h5>
             <button class="circle transparent" onclick="abrirModal({event:event,id:'menu_drawer',drawer:true})">
@@ -46,10 +46,18 @@
 
     </nav>
     <main class="responsive">
-        <p>Compact</p>
-        <div>
-            <button  class="error">Hola</button>
-        </div>
+        <article>
+            <h5>Titulo 2</h5>
+            <p>Compact</p>
+            <div>
+                <button class="">Hola</button>
+            </div>
+
+        </article>
+        <button class="extend circle error  absolute bottom right ">
+            <i>add</i>
+            <span>Agregar</span>
+        </button>
 
     </main>
 
@@ -57,9 +65,9 @@
         <nav class="drawer">
             <header>
                 <nav>
-                     <h6 class="max ">Menu</h6>
+                    <h6 class="max ">Menu</h6>
                     <button class="transparent circle large" onclick="cerrarModal({event:event,id:'menu_drawer'})">
-                        <i >close</i>
+                        <i>close</i>
                     </button>
                 </nav>
             </header>
@@ -82,13 +90,14 @@
             </a>
             <hr>
             <br />
-             <a >
+            <a>
                 <i>logout</i>
                 <span>Cerrar sesión</span>
             </a>
-          
+
         </nav>
     </dialog>
 
 </body>
+
 </html>
